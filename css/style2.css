@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#slide_2 {
+    background: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center top;
+    min-height: 100vh;
+    z-index: 99;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    padding: 40px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    vertical-align: middle;
+    font-size: 22px;
+    color: #000000;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.logo span {
+    vertical-align: middle;
+}
+
+.navigation {
+    vertical-align: middle;
+    position: absolute; right: 50px;
+}
+
+.header li {
+    color: #000000;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    vertical-align: middle;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.header li:hover {
+    transform: translateY(-4px);
+}
+
+.design {
+    position: absolute;
+    top: 220px;
+    right: 100px;
+    height: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.circles {
+    position: fixed;
+    bottom: 25px;
+    left: 40px;
+    z-index: 100;
+}
+
+.circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+    border-radius: 50%;
+    border: solid 1px #cccccc;
+    background-color: white;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #20E194;
+    border: none;
+}
+.header {
+    width: 100%;
+    padding: 40px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section0 p1{
+    font-family: "Verdana";
+    font-size: 50px;
+    font-weight:100;
+    position: absolute;
+    top: 160px;
+    left: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:5%;
+}
+p{
+    font-family: "Sans-Serif";
+    font-style: "Helvetica";
+    font-size: 20px;
+    font-weight:100;
+    text-align: left;
+    position: absolute;
+    top: 220px;
+    left: 60px;
+    width:44%;
+    height: 50%;
+    line-height: 180%;
+
+}
+
+
+
+
